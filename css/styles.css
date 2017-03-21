@@ -1,0 +1,19 @@
+.header {
+  color: red;
+  text-align: center;
+}
+body {
+  font-size: 20px;
+}
+#first_paragraph, #second_paragraph {
+  text-align: center;
+}
+html {
+  background-color: blue;
+}
+footer {
+  color: red;
+}
+a {
+  color: green;
+}
