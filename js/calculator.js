@@ -1,3 +1,5 @@
+console.log ("Witaj");
+
 window.onload = function() {
 
 var current,
