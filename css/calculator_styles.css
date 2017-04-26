@@ -5,9 +5,8 @@ body {
 #background {
     width:300px;
     height:400px;
-    background:gray;
-    margin:50px auto;
-    -webkit-animation:bgChange 2s 2s alternate infinite;
+    background:blue;
+    margin:50px auto;   
     transition: all 2s ease;
 }
 
