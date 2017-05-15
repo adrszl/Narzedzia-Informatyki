@@ -34,14 +34,15 @@
     for (i = 0; i < y.length; i++) {
         surnames += y[i].childNodes[0].nodeValue + "<br>";
     }
-    document.getElementById("xml_result").innerHTML = names;
-    document.getElementById("xml_result").innerHTML = surnames;
+    document.getElementById("xml_result_name").innerHTML = names;
+    document.getElementById("xml_result_surname").innerHTML = surnames;
 }
   </script>
 </head>
 <body>
 
-  <p id="xml_result"></p>
+  <p id="xml_result_name"></p>
+  <p id="xml_result_surname"></p>
 
 </body>
 </html>
