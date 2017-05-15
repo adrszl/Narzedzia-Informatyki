@@ -1,0 +1,6 @@
+.box {
+  float:left;
+}
+.not_box {
+  float:none;
+}
