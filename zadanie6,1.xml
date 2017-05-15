@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personal_data>
+  <person id="1">
+    <name>Jan</name>
+    <surname>Kowalski</surname>
+    <sex>M</sex>
+    <profession>Programista</profession>
+    <year>1981</year>
+    <place>Kampus UAM</place>
+    <postal_code>50-555</postal_code>
+    <city>Poznan</city>
+    <salary>600</salary>
+    <phone>dom:123456789</phone>
+  </person>
+  <person id="2">
+    <name>Janusz</name>
+    <surname>Kowalski</surname>
+    <sex>M</sex>
+    <profession>Programista</profession>
+    <year>1982</year>
+    <place>Kampus UAM</place>
+    <postal_code>50-551</postal_code>
+    <city>Poznan</city>
+    <salary>700</salary>
+    <phone>dom:123456789</phone>
+  </person>
+  <person id="3">
+    <name>Janina</name>
+    <surname>Kowalska</surname>
+    <sex>K</sex>
+    <profession>Nauczyciel</profession>
+    <year>1983</year>
+    <place>Kampus UAM</place>
+    <postal_code>50-552</postal_code>
+    <city>Poznan</city>
+    <salary>800</salary>
+    <phone>dom:123456789</phone>
+  </person>
+  <person id="4">
+  <name>Jozef</name>
+  <surname>Kowalski</surname>
+  <sex>M</sex>
+  <profession>Nauczyciel</profession>
+  <year>1984</year>
+  <place>Rataje</place>
+  <postal_code>50-553</postal_code>
+  <city>Poznan</city>
+  <salary>900</salary>
+  <phone>dom:123456789</phone>
+  </person>
+  <person id="5">
+  <name>Jarek</name>
+  <surname>Kowalski</surname>
+  <sex>M</sex>
+  <profession>Nauczyciel</profession>
+  <year>1985</year>
+  <place>Rataje</place>
+  <postal_code>50-554</postal_code>
+  <city>Poznan</city>
+  <salary>1000</salary>
+  <phone>dom:123456789</phone>
+  </person>
+  <person id="6">
+  <name>Jan</name>
+  <surname>Kowalski</surname>
+  <sex>M</sex>
+  <profession>Programista</profession>
+  <year>1981</year>
+  <place>Kampus UAM</place>
+  <postal_code>50-555</postal_code>
+  <city>Poznan</city>
+  <salary>600</salary>
+  <phone>dom:123456789</phone>
+  </person>
+  <person id="7">
+  <name>Janusz</name>
+  <surname>Kowalski</surname>
+  <sex>M</sex>
+  <profession>Programista</profession>
+  <year>1982</year>
+  <place>Kampus UAM</place>
+  <postal_code>50-551</postal_code>
+  <city>Poznan</city>
+  <salary>700</salary>
+  <phone>dom:123456789</phone>
+  </person>
+  <person id="8">
+  <name>Janina</name>
+  <surname>Kowalska</surname>
+  <sex>K</sex>
+  <profession>Nauczyciel</profession>
+  <year>1983</year>
+  <place>Kampus UAM</place>
+  <postal_code>50-552</postal_code>
+  <city>Poznan</city>
+  <salary>800</salary>
+  <phone>dom:123456789</phone>
+  </person>
+  <person id="9">
+  <name>Jozef</name>
+  <surname>Kowalski</surname>
+  <sex>M</sex>
+  <profession>Nauczyciel</profession>
+  <year>1984</year>
+  <place>Rataje</place>
+  <postal_code>50-553</postal_code>
+  <city>Poznan</city>
+  <salary>900</salary>
+  <phone>dom:123456789</phone>
+  </person>
+  <person id="10">
+  <name>Jarek</name>
+  <surname>Kowalski</surname>
+  <sex>M</sex>
+  <profession>Nauczyciel</profession>
+  <year>1985</year>
+  <place>Rataje</place>
+  <postal_code>50-554</postal_code>
+  <city>Poznan</city>
+  <salary>1000</salary>
+  <phone>dom:123456789</phone>
+  </person>
+</personal_data>
