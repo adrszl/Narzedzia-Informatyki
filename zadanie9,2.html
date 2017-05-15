@@ -15,7 +15,8 @@
 
     function myFunction(xml) {
         var xmlDoc = xml.responseXML;
-        for (int i=0; i<10; ++i) {
+        var i;
+        for (i=0; i<10; ++i) {
         document.getElementById("xml_result").innerHTML =
         xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue + "<br>" +
         xmlDoc.getElementsByTagName("surname")[0].childNodes[0].nodeValue + "<br>" +
