@@ -14,21 +14,28 @@
     xhttp.send();
 
     function myFunction(xml) {
-        var xmlDoc = xml.responseXML;
-        var i;
-        for (i=0; i<10; ++i) {
-        document.getElementById("xml_result").innerHTML =
-        xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue + "<br>" +
-        xmlDoc.getElementsByTagName("surname")[0].childNodes[0].nodeValue + "<br>" +
-        xmlDoc.getElementsByTagName("sex")[0].childNodes[0].nodeValue + "<br>"  +
-        xmlDoc.getElementsByTagName("profession")[0].childNodes[0].nodeValue + "<br>" +
-        xmlDoc.getElementsByTagName("year")[0].childNodes[0].nodeValue + "<br>" +
-        xmlDoc.getElementsByTagName("place")[0].childNodes[0].nodeValue + "<br>" +
-        xmlDoc.getElementsByTagName("postal_code")[0].childNodes[0].nodeValue + "<br>" +
-        xmlDoc.getElementsByTagName("city")[0].childNodes[0].nodeValue + "<br>" +
-        xmlDoc.getElementsByTagName("salary")[0].childNodes[0].nodeValue + "<br>" +
-        xmlDoc.getElementsByTagName("phone")[0].childNodes[0].nodeValue;
-    }}
+    var x, y, cloneNode, i, xmlDoc, names, surnames, sexs;
+    var professions, years, places, postal_codes, citys;
+    var salarys, phones;
+    xmlDoc = xml.responseXML;
+    txt = "";
+    x = xmlDoc.getElementsByTagName('person')[0];
+    cloneNode = x.cloneNode(true);
+    xmlDoc.documentElement.appendChild(cloneNode);
+
+    // Output all titles
+    y = xmlDoc.getElementsByTagName("name");
+    for (i = 0; i < y.length; i++) {
+        names += y[i].childNodes[0].nodeValue + "<br>";
+    }
+
+    y = xmlDoc.getElementsByTagName("surname");
+    for (i = 0; i < y.length; i++) {
+        surnames += y[i].childNodes[0].nodeValue + "<br>";
+    }
+    document.getElementById("demo").innerHTML = names; 
+    document.getElementById("demo").innerHTML = surnames;
+}
   </script>
 </head>
 <body>
