@@ -2,13 +2,13 @@
 <html>
 <body>
 
-<h2>Make a table based on JSON data.</h2>
+<h2>Tabela na podstawie pliku JSON.</h2>
 
-<p id="demo"></p>
+<p id="result"></p>
 
 <script>
 var obj, dbParam, xmlhttp, myObj, x, txt = "";
-obj = { "table":"customers", "limit":20 };
+obj = { "table":"customers", "limit":150 };
 dbParam = JSON.stringify(obj);
 xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
@@ -19,7 +19,7 @@ xmlhttp.onreadystatechange = function() {
             txt += "<tr><td>" + myObj[x].name + "</td></tr>";
         }
         txt += "</table>"        
-        document.getElementById("demo").innerHTML = txt;
+        document.getElementById("result").innerHTML = txt;
     }
 };
 xmlhttp.open("POST", "zadanie6,2.json", true);
