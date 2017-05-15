@@ -1,0 +1,12 @@
+[
+{"name":"Jan", "surname":"Kowalski", "sex":"M", "profession":"Programista", "date_of_birth":1981 ,"country":"Kampus UAM", "postal_code":"50-555", "city":"Poznan", "salary":600 ,"phone":123456789 },
+{"name":"Janusz", "surname":"Kowalski", "sex":"M", "profession":"Programista", "date_of_birth":1982 ,"country":"Kampus UAM", "postal_code":"50-551", "city":"Poznan", "salary":700 ,"phone":123456789 },
+{"name":"Janina", "surname":"Kowalska", "sex":"K", "profession":"Nauczyciel", "date_of_birth":1983 ,"country":"Kampus UAM", "postal_code":"50-552", "city":"Poznan", "salary":800 ,"phone":123456789 },
+{"name":"Jozef", "surname":"Kowalski", "sex":"M", "profession":"Nauczyciel", "date_of_birth":1984 ,"country":"Rataje", "postal_code":"50-553", "city":"Poznan", "salary":900 ,"phone":123456789 },
+{"name":"Jarek", "surname":"Kowalski", "sex":"M", "profession":"Nauczyciel", "date_of_birth":1985 ,"country":"Rataje", "postal_code":"50-554", "city":"Poznan", "salary":1000 ,"phone":123456789 },
+{"name":"Jan", "surname":"Kowalski", "sex":"M", "profession":"Programista", "date_of_birth":1981 ,"country":"Kampus UAM", "postal_code":"50-555", "city":"Poznan", "salary":600 ,"phone":123456789 },
+{"name":"Janusz", "surname":"Kowalski", "sex":"M", "profession":"Programista", "date_of_birth":1982 ,"country":"Kampus UAM", "postal_code":"50-551", "city":"Poznan", "salary":700 ,"phone":123456789 },
+{"name":"Janina", "surname":"Kowalska", "sex":"K", "profession":"Nauczyciel", "date_of_birth":1983 ,"country":"Kampus UAM", "postal_code":"50-552", "city":"Poznan", "salary":800 ,"phone":123456789 },
+{"name":"Jozef", "surname":"Kowalski", "sex":"M", "profession":"Nauczyciel", "date_of_birth":1984 ,"country":"Rataje", "postal_code":"50-553", "city":"Poznan", "salary":900 ,"phone":123456789 },
+{"name":"Jarek", "surname":"Kowalski", "sex":"M", "profession":"Nauczyciel", "date_of_birth":1985 ,"country":"Rataje", "postal_code":"50-554", "city":"Poznan", "salary":1000 ,"phone":123456789 }
+]
